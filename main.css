@@ -1,0 +1,140 @@
+.active {
+    text-decoration: underline;
+}
+
+h1 {
+    padding-top: 2%;
+    text-align: center;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.img-index {
+    width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    .img-index {
+        content: url('img/pic_self2.jpg') !important;
+    }
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.padding {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.padding-all{
+    padding: 10px !important;
+}
+
+.margin{
+    margin: 6px;
+}
+
+.margin-top-small {
+    margin-top: 5px;
+}
+
+.margin-top {
+    margin-top: 15px;
+}
+
+.margin-top-big {
+    margin-top: 30px;
+}
+
+.row {
+    padding: 5px;
+}
+
+/* div{
+    margin: 5px;
+} */
+
+p {
+    margin-bottom: 0 !important;
+}
+
+.profile {
+    background-image: url('img/background-index.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    margin: 10px;
+}
+
+#email {
+    color: white;
+}
+
+.w3-animate-top{
+    animation-duration: 1s !important;
+}
+
+.w3-animate-bottom{
+    animation-duration: 1s !important;
+}
+
+#blade{
+    color: black;
+}
+
+@media screen and (max-width: 575px) {
+    .w3-animate-top{
+        animation-name: animateleft !important;
+        animation-duration: 1s !important;
+    }
+
+    .w3-animate-bottom{
+        animation-name: animateright !important;
+        animation-duration: 1s !important;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .new1{
+        animation: animateleft 1s !important;
+    }
+
+    .new2{
+        animation: animatebottom 1s !important;
+    }
+
+    .w3-animate-bottom{
+        animation-name: animateright !important;
+        animation-duration: 1s !important;
+    }
+}
+
+.text-black{
+    color: black;
+}
+
+.back-black{
+    background: rgba(255, 255, 255, 0.6);
+}
+
